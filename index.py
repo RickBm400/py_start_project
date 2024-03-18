@@ -1,5 +1,4 @@
-def new_function(holamundo):
-    print(holamundo)
+from class_folder.dog import dog
 
-
-new_function("ola")
+raul = dog('Raul')
+print(raul.get_woof())
